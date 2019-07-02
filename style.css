@@ -1,0 +1,41 @@
+
+#controls {
+padding: 6 px;
+opacity: 0.8;
+background: #f7f7f7;
+ 
+}
+
+div.map {
+  /* position: fixed; */
+  top: 30px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+input[type="number"] {
+  max-width: 85%;
+}
+
+.leaflet-container {
+  background-color: white !important;
+}
+
+
+/* Customize fonts */
+body, label, input, button, select { 
+  font-family: 'Helvetica Neue', Helvetica;
+  font-weight: 200;
+}
+h1, h2, h3, h4 { font-weight: 400; }
+
+/* Position and style citation */
+#cite {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 12px;
+}
